@@ -52,9 +52,6 @@ spec:
               cpu: 32m
               memory: 32Mi
       volumes:
-        - name: atp-user-consumer-secret-file
-          secret:
-            secretName: atp-user-consumer-secret-file
         - name: atp-user-consumer-configmap-file
           configMap:
             name: atp-user-consumer-configmap-file
