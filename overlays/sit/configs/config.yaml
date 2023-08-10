@@ -23,8 +23,8 @@ kafka:
   address:
     - kafka.poc.internal:9092
   topic: 
-    - atp-user-topic
-  consume-group: atp-user-consumer-group
+    - atp2-user-topic
+  consume-group: atp2-user-consumer-group
 
 redis:
   address: 172.28.241.3:6379
